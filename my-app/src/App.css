@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Parentbox{
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.Foto{
+  float: left;
+  width: 50%;
+  height: 550px;
+}
+
+.Foto img{
+  width: 700px;
+  height: 600px;
+}
+
+.Deskripsi{
+  width: 40%;
+  overflow: hidden;
+  float: left;
+  margin-left: 30px;
+}
+
+.Deskripsi .Info {
+  line-height: 1.8;
+  color: rgb(18, 11, 49);
+}
+
+.Deskripsi .Price{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Deskripsi .Title {
+  margin: 0;
+}
+
+.Deskripsi .Cate {
+  color: grey;
+  font-size: 40px;
+}
+
+button{
+  background-color: white ;
+  padding: 5px;
+  margin-top: 6px;
+}
+
+#A {
+  background-color: black ;
+  padding: 15px;
+  margin-right: 20px;
+  color: white;
+  font-size: 20px;
+}
+#B {
+  background-color: grey ;
+  padding: 15px;
+  margin-right: 20px;
+  color: black;
+  font-size: 20px;
+}
+
+.Deskripsi .bawah {
+  color: grey;
+  font-size: 10px;
+}
